@@ -443,7 +443,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 
         if (cps <= 5) return '这么逊还想泡李佳？';
         if (cps <= 8) return '你配吗？';
-        if (cps <= 10)  return '其实大家当同学挺好的，没必要';
+        if (cps <= 10)  return '就你也配泡我？';
         if (cps <= 15) return '恭喜你成功泡到李佳';
         return '别泡了';
     }
